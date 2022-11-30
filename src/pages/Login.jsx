@@ -34,7 +34,7 @@ const Login = () => {
                 <Form onSubmit={handleSubmit(submit)} style={{ maxWidth: 500, margin: "0 auto" }}>
                     <div><h1>Login</h1></div>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
-                        <Form.Label>Email address</Form.Label>
+                        <Form.Label className="icon-mail">Email address</Form.Label>
                         <Form.Control type="email" placeholder="Enter email" {...register("email")} />
                         <Form.Text className="text-muted">
                             We'll never share your email with anyone else.
@@ -43,12 +43,23 @@ const Login = () => {
                     <Form.Group className="mb-3" controlId="formBasicPassword">
                         <Form.Label>Password</Form.Label>
                         <Form.Control type="password" placeholder="Password" {...register("password")} />
-                    </Form.Group>
-                    <Button variant="primary" type="submit">
+                        <Button variant="primary" type="submit">
                         Submit
                     </Button>
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="formBasicsignup">
+                        <Form.Label> Don't have an account? </Form.Label>
+                        <Button type="button" onClick={() => navigate("/login")}>
+                            Sign up 
+                        
+                    </Button>
+                    
+                    </Form.Group>
+                    
                 </Form>
+                
             </Card>
+           
         </div>
     );
 };

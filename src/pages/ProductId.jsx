@@ -21,13 +21,20 @@ const ProductId = () => {
 
   return (
     <>
-    <div className="contaiderId"  style={{ maxWidth: 500, margin: "0 auto" }}>
+    <div className="contaiderId"  style={{ maxWidth: 1500, margin: "auto" }}>
       <section className="related">
         {relatedProducts.map((related) => (
-          <h6>{related.title}</h6>
+          
+          <h1>{related.title}</h1>
+          
         ))}
       </section>
-      <h5>{news?.title}</h5>
+      <h3>Price:</h3>
+      <h5> ${news?.price}</h5>
+      <h3>Description:</h3>
+      <h5> {news?.description}</h5>
+      <h3>Category:</h3>
+      <h5> {news?.category.name}</h5>
       <img src={news?.productImgs[1]} />
       <img src={news?.productImgs[2]} />
     </div>
