@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { Offcanvas } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from "react-router-dom";
 import CartSidebars from './Cart';
@@ -25,13 +24,13 @@ const NavBar = () => {
           <Nav.Link href="/home">Home</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link as={Link} to="/purchase" >Purchase</Nav.Link>
+          <Nav.Link as={Link} to="/purchase">Purchase</Nav.Link>
         </Nav.Item>
          <Nav.Item>
-          <Nav.Link as={Link} to="/cart" onClick={handleShow}>Cart</Nav.Link>
+          <Nav.Link as={Link} to="/cart"onClick={handleShow}>Cart</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link as={Link} to="/login" >Login</Nav.Link>
+          <Nav.Link as={Link} to="/login">Login</Nav.Link>
         </Nav.Item>
        
         <Nav.Item>
