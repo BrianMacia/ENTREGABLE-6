@@ -23,7 +23,7 @@ const Home = () => {
 
       <h2>E-commerce</h2>
       {categoriesList.map((category) => (
-        <Button onClick={() => dispatch(filterNewsThunk(category.id))} style={{ maxWidth: 500, margin: "0 auto" }}>
+        <Button onClick={() => dispatch(filterNewsThunk(category.id))} style={{ maxWidth: 900, margin: "0 auto" }}>
           {category.name}
         </Button>
       ))}
@@ -44,7 +44,7 @@ const Home = () => {
       </InputGroup>
       {products.map((el) => (
         <li>
-          <Link to={`/productId/${el.id}`} key={el.title}><h6>{el.title}</h6></Link>
+          <Link to={`/productId/${el.id}`} key={el.title}><h5>{el.title}</h5></Link>
           <Link to={`/productId/${el.id}`} key={el.price}> <h3>Price: ${el.price}</h3> </Link>
           <img src={el.productImgs[0]} style={{ maxWidth: 1500}} alt="" />
         </li>
