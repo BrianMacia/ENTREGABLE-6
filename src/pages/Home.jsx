@@ -35,7 +35,7 @@ const Home = () => {
           value={inputSearch}
           onChange={(e) => setInputSearch(e.target.value)}
         />
-        <Button className="inputg"
+        <Button className="inputsearch"
           variant="outline-secondary"
           onClick={() => dispatch(filterHeadlineThunk(inputSearch))}
         >
@@ -46,8 +46,7 @@ const Home = () => {
         <li>
           <Link to={`/productId/${el.id}`} key={el.title}><h6>{el.title}</h6></Link>
           <Link to={`/productId/${el.id}`} key={el.price}> <h3>Price: ${el.price}</h3> </Link>
-          <Link to={`/productId/${el.id}`} key={el.productImgs[0]}>{el.productImgs[0]}</Link>
-
+          <img src={el.productImgs[0]} style={{ maxWidth: 1500}} alt="" />
         </li>
 
       ))}

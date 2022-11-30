@@ -27,8 +27,8 @@ const Purchase = () => {
                                     <h3><b>Product ID :</b>{product.id}</h3>
                                     <h3><b>Product : </b>{product.title}</h3>
                                     <h3><b>Price :</b>{product.price}</h3>
-                                    
-
+                                    <h3><b>Quantity :</b>{product.productsInCart.quantity}</h3>
+                                    <h3><b>Status:</b><n>{product.productsInCart.status}</n></h3>
                                  </li>
                            ))}
                         </li>

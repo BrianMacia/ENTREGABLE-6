@@ -25,8 +25,10 @@ const CartSidebars= ({show, handleClose}) => {
             {Cart.map(product => (
                 <div>
                 <li>
-                <h2>Product :{product.title}</h2>
-                <h2>Price :{product.price}</h2>
+                <h6>Product :{product.title}</h6>
+                <h6>Price :{product.price}</h6>
+                <h6>Quantity :{product.productsInCart.quantity}</h6>
+                
                 </li>
              </div>))}
 
