@@ -5,7 +5,7 @@ import { setIsLoading } from './isLoading.slice';
 
 
 export const cartSlice = createSlice({
-    name: 'slice',
+    name: 'Cart',
     initialState: [],
     reducers: {
         setCart: (state, action) => {

@@ -20,6 +20,7 @@ const ProductId = () => {
   console.log(productList);
 
   return (
+    <>
     <div className="contaiderId"  style={{ maxWidth: 500, margin: "0 auto" }}>
       <section className="related">
         {relatedProducts.map((related) => (
@@ -29,9 +30,14 @@ const ProductId = () => {
       <h5>{news?.title}</h5>
       <img src={news?.productImgs[1]} />
       <img src={news?.productImgs[2]} />
-
-
     </div>
+     <input
+     type="text"  />
+    
+     
+
+   
+   </>
   );
 };
 
