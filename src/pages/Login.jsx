@@ -21,7 +21,7 @@ const Login = () => {
             })
             .catch(error => {
                 if(error.response?.status === 404){
-                        alert("Credenciales incorrectas");
+                        alert("incorrect credentials");
                 } else {
                     console.log(error.response?.data);
                 }
