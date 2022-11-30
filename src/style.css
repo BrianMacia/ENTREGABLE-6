@@ -3,7 +3,10 @@
   padding: 20px;
   
 }
-
+div.navegacion.nav{
+  align-items: center;
+ right: 1rem;
+}
 body {
   display: grid;
   gap: 4rem;
@@ -30,14 +33,7 @@ a.nav-link{
 .nav-item>a:hover {
   color: rgb(251, 255, 0);
 }
-.navegacion {
-  padding: 1rem;
-  border-bottom: 3px solid rgb(255, 255, 255);
-  background-color: #fcfcfc0e;
-  color: #ffffff;
-  width: 100%;
 
-}
 
 .loader {
   border: 16px solid #d6679b;
@@ -89,9 +85,7 @@ img {
   margin-bottom: 1rem;
   margin-top: 2rem;
 }
-.eco>li>img{
-  
-}
+
 
 .related {
   margin: 4rem
@@ -128,7 +122,7 @@ h1 {
 
 }
 .eco{
-  width: 30rem;
+  width: 35rem;
 
 }
 .eco>h2{
