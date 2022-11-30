@@ -28,6 +28,7 @@ const Purchase = () => {
                                     <h3><b>Product : </b>{product.title}</h3>
                                     <h3><b>Price :</b>{product.price}</h3>
                                     
+
                                  </li>
                            ))}
                         </li>
