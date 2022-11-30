@@ -20,7 +20,7 @@ const ProductId = () => {
   console.log(productList);
 
   return (
-    <div className="contaiderId">
+    <div className="contaiderId"  style={{ maxWidth: 500, margin: "0 auto" }}>
       <section className="related">
         {relatedProducts.map((related) => (
           <h6>{related.title}</h6>
@@ -30,7 +30,7 @@ const ProductId = () => {
       <img src={news?.productImgs[1]} />
       <img src={news?.productImgs[2]} />
 
-      
+
     </div>
   );
 };

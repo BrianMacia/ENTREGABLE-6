@@ -1,6 +1,6 @@
-const LoadingScreen = ()=>{
+const LoadingScreen = () => {
 
-    return(
+    return (
         <span className="loader"></span>
     )
 }

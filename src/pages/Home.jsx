@@ -23,7 +23,7 @@ const Home = () => {
 
       <h2>E-commerce</h2>
       {categoriesList.map((category) => (
-        <Button onClick={() => dispatch(filterNewsThunk(category.id))}>
+        <Button onClick={() => dispatch(filterNewsThunk(category.id))}  style={{ maxWidth: 500, margin: "0 auto" }}>
           {category.name}
         </Button>
       ))}

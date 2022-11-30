@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <Nav
+    <Nav  style={{ maxWidth: 500, margin: "0 auto" }}
       activeKey="/home" className='navegacion'
     >
       <Nav.Item>

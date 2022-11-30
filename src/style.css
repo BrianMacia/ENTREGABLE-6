@@ -1,26 +1,31 @@
 * {
   margin: 5px;
   padding: 20px;
-  
+
 }
-body{
+
+body {
   display: grid;
   gap: 4rem;
 }
-.navegacion{
+
+.navegacion {
   padding: 1rem;
   border-bottom: 3px solid rgba(201, 200, 199, 0.301);
 
-} 
-h2{
-  width: 25%;
+}
+
+h2 {
+  max-width: 500;
+  width: 80%;
   height: 50%;
-  position: relative; 
+  position: relative;
   background-color: #0000004a;
   z-index: 9999;
   text-align: center;
-  
+
 }
+
 .loader {
   border: 16px solid #ffffff;
   border-top: 16px solid #f025a2;
@@ -29,52 +34,56 @@ h2{
   width: 60px;
   height: 60px;
   animation: spin 1.5s linear infinite;
-  position: absolute; 
+  position: absolute;
   left: 0;
-  bottom: 0; 
-  right: 0; 
-  top: 0; 
-  margin: auto; 
+  bottom: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
 }
+
 .loader::after {
   width: 100%;
   height: 100%;
-  position: relative; 
+  position: relative;
   background-color: #f531314a;
   z-index: 9999;
 }
- 
+
 @keyframes rotation {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
-.contaiderId{
+
+.contaiderId {
   position: relative;
   margin: 7rem;
   top: 0;
   text-align: center;
   gap: 1.2rem;
 }
-img{
+
+img {
   width: 250px;
   margin-left: 0.4rem;
   margin-bottom: 1rem;
   margin-top: 2rem;
 }
 
-.related{
+.related {
   margin: 4rem
 }
 
-.inputg{
+.inputg {
   width: 25%;
   border-bottom: 3px solid rgba(201, 200, 199, 0.301);
   height: 50%;
-  position: relative; 
+  position: relative;
   border-color: #f025a2;
   z-index: 9999;
   text-align: center;
