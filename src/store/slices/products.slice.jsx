@@ -41,14 +41,8 @@ export const filterNewsThunk = (id) => (dispatch) => {
 
 
 
-export const CartThunk= () => (dispatch) => {
-    dispatch(setIsLoading(true));
-    return axios
-        .get(`https://e-commerce-api.academlo.tech/api/v1/cart`)
-        .then(() => dispatch())
-        .finally(() => dispatch(setIsLoading(false)));
-}
 
-export const { setCart } = CartThunk.actions;
 
-export default CartThunk.reducer;
+export const { setProducts } = newsProductSlice.actions;
+
+export default newsProductSlice.reducer;

@@ -19,7 +19,7 @@ const ProductId = () => {
   const relatedProducts = productList.filter(
     (el) => el.category.name == news.category.name
   );
- 
+  console.log(productList);
 
 const [quantity, setQuantity ] =useState("")
   const addproduct = () => {
@@ -29,7 +29,7 @@ const [quantity, setQuantity ] =useState("")
     };
     dispatch(createCartThunk(productcartadded));
 
-    
+    console.log(product);
   };
 
 
