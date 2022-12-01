@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Offcanvas } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
-import { getCartThunk } from '../store/slices/cart.slice';
+import { cartSliceThunk, createCartThunk} from '../store/slices/cart.slice';
 
 
 
@@ -10,7 +10,7 @@ const CartSidebars= ({show, handleClose}) => {
     const dispatch = useDispatch();
 
     useEffect(() => {
-        dispatch(getCartThunk());
+        dispatch(cartSliceThunk());
     }, []);
 
     const Cart =useSelector(state => state.cart)
