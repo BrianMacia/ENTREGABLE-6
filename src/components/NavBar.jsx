@@ -19,9 +19,9 @@ const NavBar = () => {
   return (
     <>
       <Nav style={{ maxWidth: 900, margin: "0 auto" }}
-        activeKey="/Home" className='navegacion'>
+        activeKey="/" className='navegacion'>
         <Nav.Item>
-          <Nav.Link href="/Home">Home</Nav.Link>
+          <Nav.Link href="/home">Home</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link as={Link} to="/purchase">Purchase</Nav.Link>
