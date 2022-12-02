@@ -15,7 +15,7 @@ const CartSidebars= ({show, handleClose}) => {
 
     const Cart =useSelector(state => state.cart)
 
-    
+     
     return (
         <Offcanvas show={show} onHide={handleClose}>
             <Offcanvas.Header closeButton>

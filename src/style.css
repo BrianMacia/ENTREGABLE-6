@@ -1,8 +1,7 @@
 * {
   margin: auto;
   padding: 1px;
-  color: #521212;
-  
+
 }
 div.navegacion.nav{
   align-items: center;
@@ -21,13 +20,12 @@ body {
   width: 120px;
   font-size: 20px;
   background-color: #bc76ca7c;
-  color: #312d2f;
- 
+
+
+
+
+
 }
-
-
-
-
 .loader {
   border: 16px solid #d6679b;
   border-top: 16px solid #000000;
@@ -112,7 +110,11 @@ h1 {
   width: 35rem;
   color: #ffffff;
 position: relative;
+<<<<<<< HEAD
   background-color: #fdfdfdad;
+=======
+  background-color: #bce213ad;
+>>>>>>> 278c447f4a11cf55dcd76660cd07c0b2a0dc8c09
  
 
 }
