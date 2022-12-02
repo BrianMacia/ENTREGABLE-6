@@ -19,6 +19,7 @@ body {
   color:#faf8f8
   
 }
+
 div.nav-item{
   background-color: #ffffff;
 }
@@ -28,7 +29,7 @@ div.nav-item{
 }
 a.nav-link{
   color: #fafafa;
-  background-color: #000000;
+  background-color: #1f1d1d;
 }
 .nav-item>a:hover {
   color: rgb(251, 255, 0);

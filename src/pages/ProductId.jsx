@@ -29,7 +29,7 @@ const [quantity, setQuantity ] =useState("")
     };
     dispatch(createCartThunk(productcartadded));
 
-    console.log(product);
+    
   };
 
 

@@ -27,10 +27,10 @@ const NavBar = () => {
           <Nav.Link as={Link} to="/purchase">Purchase</Nav.Link>
         </Nav.Item>
          <Nav.Item>
-          <Nav.Link as={Link} to="/cart"onClick={handleShow}>Cart</Nav.Link>
+          <Nav.Link onClick={handleShow}>Cart</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link as={Link} to="/login">Login</Nav.Link>
+          <Nav.Link as={Link} to="/login">Login<i class="fa fa-user"></i></Nav.Link>
         </Nav.Item>
        
         <Nav.Item>

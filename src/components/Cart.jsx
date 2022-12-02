@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import { Offcanvas } from 'react-bootstrap';
+import { Button, Offcanvas } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
-import { cartSliceThunk, createCartThunk} from '../store/slices/cart.slice';
+import { cartSliceThunk, CheckoutThunt, createCartThunk} from '../store/slices/cart.slice';
 
 
 
@@ -31,7 +31,7 @@ const CartSidebars= ({show, handleClose}) => {
                 
                 </li>
              </div>))}
-
+                   <Button onClick={() => dispatch(CheckoutThunt())}>Checkout</Button> 
             </Offcanvas.Body>
         </Offcanvas>
     );
