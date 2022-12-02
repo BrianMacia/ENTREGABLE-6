@@ -1,6 +1,6 @@
 * {
   margin: auto;
-  padding: 20px;
+  padding: 5px;
   
 }
 div.navegacion.nav{
@@ -32,16 +32,10 @@ body {
 div.nav-item{
   background-color: #ffffff;
 }
-.nav-link.active{
-  color: #ffffff;
-  background-color: #000000e3;
-}
+
 a.nav-link{
   color: #fafafa;
-  background-color: #1f1d1d;
-}
-.nav-item>a:hover {
-  color: rgb(251, 255, 0);
+  background-color: #000000;
 }
 
 
@@ -91,7 +85,7 @@ a.nav-link{
 img {
   align-items: center;
   width: 350px;
-  margin-left: 1.4rem;
+  margin-left: 6.4rem;
   margin-bottom: 1rem;
   margin-top: 2rem;
 }
@@ -129,7 +123,7 @@ h1 {
  
   color: #ffffff;
 position: relative;
-  background-color: #0c0c0c21;
+  background-color: #00000021;
  
 
 }

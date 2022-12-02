@@ -49,7 +49,7 @@ const Login = () => {
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formBasicsignup">
                         <Form.Label> Don't have an account? </Form.Label>
-                        <Button type="button" onClick={() => navigate("/login")}>
+                        <Button type="button" onClick={() => navigate("/SignUp")}>
                             Sign up 
                         
                     </Button>
