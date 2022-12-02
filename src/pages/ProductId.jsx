@@ -56,7 +56,7 @@ const [quantity, setQuantity ] =useState("")
       <img src={news?.productImgs[2]} className="img002" />
       <div>
        
-      <input type="text" className="inputcont" 
+      <input type="text"  className="inputcont" 
                 value={quantity}
                 onChange={(e) => setQuantity(e.target.value)} 
                 

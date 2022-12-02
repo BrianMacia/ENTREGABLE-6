@@ -4,17 +4,15 @@ import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const SignUp = () => {
 
    
-            }
 
-    return (
-        <div >
-            <h5>AS</h5>
-            
-        </div>
-    );
+        
+                    <div><h1>Sign Up</h1></div>
+                   
+           
+       
+
 
 
 export default SignUp;

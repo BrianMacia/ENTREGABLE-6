@@ -1,6 +1,7 @@
 * {
   margin: auto;
-  padding: 5px;
+  padding: 1px;
+  color: #521212;
   
 }
 div.navegacion.nav{
@@ -8,17 +9,9 @@ div.navegacion.nav{
  right: 1rem;
 }
 body {
-  display: grid;
-  gap: 4rem;
+   gap: 1rem;
 }
-.nav.item{
-  color: #f10f0f;
-}
-.nav-link{
-  background-color: #ffffff;
-  color:#faf8f8
-  
-}
+
 .inputcont{
   width: 100px;
   font-size: 20px;
@@ -28,15 +21,11 @@ body {
   width: 120px;
   font-size: 20px;
   background-color: #bc76ca7c;
-}
-div.nav-item{
-  background-color: #ffffff;
+  color: #312d2f;
+ 
 }
 
-a.nav-link{
-  color: #fafafa;
-  background-color: #000000;
-}
+
 
 
 .loader {
@@ -75,10 +64,10 @@ a.nav-link{
 .contaiderId {
   font-size: 10px;
   position: relative;
-  margin: 7rem;
+  margin: 70rem;
   top: 0;
   text-align: center;
-  gap: 1.2rem;
+  gap: 3rem;
 }
 
 
@@ -110,20 +99,20 @@ img {
 }
 
 .purchasestyle{
-font-size: 2cm;
-width: 100%;
-text-align: center;
-
-}
+  font-size: 2cm;
+  width: 100%;
+  text-align: center;
+  
+  }
 .related>h1{
 font-size: 20px;
 }
 h1 {
   font-size: 10px;
- 
+  width: 35rem;
   color: #ffffff;
 position: relative;
-  background-color: #00000021;
+  background-color: #fdfdfdad;
  
 
 }
@@ -133,7 +122,7 @@ position: relative;
 
 }
 .eco>h2{
-  width: 30rem;
+  width: rem;
   font-size: 20px;
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.856);
@@ -192,7 +181,3 @@ h6 {
   color: #ffffff;
 }
 
-i{
- 
-
-}
