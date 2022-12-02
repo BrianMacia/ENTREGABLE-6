@@ -18,10 +18,10 @@ const NavBar = () => {
 
   return (
     <>
-      <Nav style={{ maxWidth: 1000, margin: "0 auto" }}
-        activeKey="/home" className='navegacion'>
+      <Nav style={{ maxWidth: 900, margin: "0 auto" }}
+        activeKey="/Home" className='navegacion'>
         <Nav.Item>
-          <Nav.Link href="/home">Home</Nav.Link>
+          <Nav.Link href="/Home">Home</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link as={Link} to="/purchase">Purchase</Nav.Link>
@@ -30,7 +30,7 @@ const NavBar = () => {
           <Nav.Link onClick={handleShow}>Cart</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link as={Link} to="/login">Login<i class="fa fa-user"></i></Nav.Link>
+          <Nav.Link as={Link} to="/login">Login</Nav.Link>
         </Nav.Item>
        
         <Nav.Item>

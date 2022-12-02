@@ -52,12 +52,17 @@ const [quantity, setQuantity ] =useState("")
       <h5> {news?.description}</h5>
       <h3>Category:</h3>
       <h5> {news?.category.name}</h5>
-      <img src={news?.productImgs[1]} />
-      <img src={news?.productImgs[2]} />
-      <input type="text"
+      <img src={news?.productImgs[1]} className="img001" />
+      <img src={news?.productImgs[2]} className="img002" />
+      <div>
+       
+      <input type="text" className="inputcont" 
                 value={quantity}
-                onChange={(e) => setQuantity(e.target.value)} />
-            <button onClick={addproduct}>Add to products</button>
+                onChange={(e) => setQuantity(e.target.value)} 
+                
+                />
+            <button onClick={addproduct} className="buttonico" >Add to products</button>
+      </div> 
     </div>
      
      

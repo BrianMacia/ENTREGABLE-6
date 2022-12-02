@@ -23,7 +23,9 @@ const CartSidebars= ({show, handleClose}) => {
             </Offcanvas.Header>
             <Offcanvas.Body>
             {Cart.map(product => (
-                <div>
+                <div className="mb-3">
+                
+
                 <li>
                 <h6>Product :{product.title}</h6>
                 <h6>Price :{product.price}</h6>
